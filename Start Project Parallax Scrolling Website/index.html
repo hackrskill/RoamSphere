@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RoamSphere - Explore the World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2 class="logo">RoamSphere</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the world</h1>
+            <p>Discover the beauty of global destinations with RoamSphere</p>
+            <a href="#destinations" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Search Bar Section -->
+    <section class="search-bar">
+        <form>
+            <input type="text" placeholder="Where do you want to go?">
+            <input type="date" placeholder="Check-in Date">
+            <input type="date" placeholder="Check-out Date">
+            <select>
+                <option value="">Number of Guests</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+            </select>
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of lights and love.</p>
+                <button class="btn">Know more</button>
+            </div>
+            <div class="card">
+                <img src="bali.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Experience the tropical paradise.</p>
+                <button class="btn">Know more</button>
+            </div>
+            <div class="card">
+                <img src="newyork.jpg" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+                <button class="btn">Know more</button>
+            </div>
+            <div class="card">
+                <img src="tokyo1.jpg" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>A blend of tradition & mordernity.</p>
+                <button class="btn">Know more</button>
+
+          
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose RoamSphere?</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <i class="fas fa-globe"></i>
+                <h3>Global Destinations</h3>
+                <p>Explore hundreds of exciting locations worldwide.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Best Price Guarantee</h3>
+                <p>We offer competitive prices for all our travel packages.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Our team is always here to assist you during your travels.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Travelers Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <div class="rating">
+                    <!-- You can use Font Awesome icons or any other icon library for star ratings -->
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p>"RoamSphere made our honeymoon unforgettable!"</p>
+                <h4>- Abhishek Kumar</h4>
+            </div>
+            <div class="testimonial">
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span> <!-- Empty star for less than full rating -->
+                </div>
+                <p>"Best travel experience ever. Highly recommended!"</p>
+                <h4>- Rohan Dakua</h4>
+            </div>
+            <div class="testimonial">
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span> <!-- Empty star for less than full rating -->
+                </div>
+                <p>"Exceptional service and great deals."</p>
+                <h4>- Abhishek Yadav(juet)</h4>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter to receive the latest offers and updates.</p>
+        <form action="#" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Our Trusted Partners</h3>
+            <ul class="partners">
+                <li><a href="https://www.goibibo.com" target="_blank"><img src="partner1.png" alt="Partner 1"></a></li>
+                <li><a href="https://www.goindigo.in" target="_blank"><img src="partner2-removebg-preview.png" alt="Partner 2"></a></li>
+                <li><a href="https://www.makemytrip.com" target="_blank"><img src="partner3.png" alt="Partner 3"></a></li>
+                <li><a href="https://pizzaonline.dominos.co.in" target="_blank"><img src="partner4-removebg-preview.png" alt="Partner 4"></a></li>
+                <li><a href="https://www.agoda.com" target="_blank"><img src="partner5-removebg-preview.png" alt="Partner 5"></a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p>&copy; 2024 RoamSphere. All rights reserved.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Designed by Rohit Sukul | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
