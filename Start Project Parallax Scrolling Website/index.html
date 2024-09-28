@@ -40,9 +40,9 @@
     <section class="search-bar">
         <form>
             <input type="text" placeholder="Where do you want to go?">
-            <input type="date" placeholder="Check-in Date">
-            <input type="date" placeholder="Check-out Date">
-            <select>
+           <input type="text" id="checkin" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" placeholder="Check-in Date">
+           <input type="text" id="checkout" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" placeholder="Check-out Date">
+           <select>
                 <option value="">Number of Guests</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
