@@ -313,7 +313,8 @@ header {
     font-size: 1em;
     cursor: pointer;
     margin-left: 10px;
-    transition: background 0.3s;
+    transition: background 0.3s;    
+    margin-bottom: 14px;
 }
 
 .newsletter button:hover {
